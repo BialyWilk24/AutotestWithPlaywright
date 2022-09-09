@@ -8,7 +8,7 @@
 
 4. Запуск всех тестов производится с помощью команды: npx playwright test (для запуска в headed режиме: npx playwright test --headed)
 5. Запуск одного тестового файла можно осуществить с помощью команды: npx playwright test <test_file_name> (Например: npx playwright test Books.spec.js)
-6. Запуск одного кнкретного теста из тестового файла может быть выполнено командой:C:\Testing\AutoTesting\Playwright> npx playwright test <test_file_name> -g "test function name" (Например: npx playwright test Books.spec.js -g "Test\s+search\s+field\s+visible$")
+6. Запуск одного конкретного теста из тестового файла может быть выполнено командой:C:\Testing\AutoTesting\Playwright> npx playwright test <test_file_name> -g "test function name" (Например: npx playwright test Books.spec.js -g "Test\s+search\s+field\s+visible$")
 
 
 
@@ -22,4 +22,4 @@ You can install Playwright using the following command: npm i -D @playwright/tes
 
 4. All tests are run using the command: npx playwright test (to run in headed mode: npx playwright test --headed)
 5. A single test file can be run with the command: npx playwright test <test_file_name> (For example: npx playwright test Books.spec.js)
-6. Running a single kntest from a test file can be done with the command:C:\Testing\AutoTesting\Playwright> npx playwright test <test_file_name> -g "test function name" (For example: npx playwright test Books.spec.js -g "Test\s+search\s+field\s+visible$")
+6. Running one particular test from a test file can be done by the command:C:\Testing\AutoTesting\Playwright> npx playwright test <test_file_name> -g "test function name" (For example: npx playwright test Books.spec.js -g "Test\s+search\s+field\s+visible$")
